@@ -1,4 +1,5 @@
-This is a simple .NET Core worker service that reads data from a Luxtronic 2 Controller for the Alpha-Innotec Air to Water Heatpump. 
+This is a simple .NET Core worker service that reads data from a Luxtronic 2 Controller for the Alpha-Innotec Air to Water Heatpump.
+This data is then passed to Influx DB.
 
 [![.NET Core](https://github.com/kjellskogsrud/alpha-innotech_datacollector/actions/workflows/dotnet-core.yml/badge.svg?branch=master)](https://github.com/kjellskogsrud/alpha-innotech_datacollector/actions/workflows/dotnet-core.yml)
 
