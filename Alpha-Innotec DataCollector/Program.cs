@@ -31,6 +31,6 @@ namespace Alpha_Innotec_DataCollector
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddHostedService<Worker>();
-                });
+                }).UseWindowsService();
     }
 }
